@@ -8,12 +8,6 @@ const router = jsonServer.router('db.json')
 
 const middlewares = jsonServer.defaults()
 
-// This should already be declared in your API file
-var app = express();
-
-// ADD THIS
-var cors = require('cors');
-app.use(cors());
 
 server.use(middlewares)
 // Add this before server.use(router)
