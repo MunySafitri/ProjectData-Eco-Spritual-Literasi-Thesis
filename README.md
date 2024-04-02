@@ -4,8 +4,8 @@ A template to deploy [JSON Server](https://github.com/typicode/json-server) to [
 
 Demo from this repository: 
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
+1. [https://json-server-in.vercel.app](https://project-data-eco-spritual-literasi-thesis.vercel.app)
+2. [https://json-server-in.vercel.app/api/user](https://project-data-eco-spritual-literasi-thesis.vercel.app/user)
 
 ![Powered by Vercel](https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg)
 
@@ -19,18 +19,9 @@ Demo from this repository:
 6. Wait until deployment is done, and your own JSON server is ready to serve!
 
 ## Default `db.json`
+[https://github.com/MunySafitri/ProjectData-Eco-Spritual-Literasi-Thesis/blob/main/db.json](https://github.com/MunySafitri/ProjectData-Eco-Spritual-Literasi-Thesis/blob/main/db.json)
+https://github.com/MunySafitri/ProjectData-Eco-Spritual-Literasi-Thesis/blob/main/db.json
 
-```json
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
-```
 
 ## Enable write operations
 
