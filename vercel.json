@@ -5,6 +5,21 @@
       "includeFiles": "db.json"
     }
   },
+  "builds": [
+    {
+      "src": "api/server.js",
+      "use": "@vercel/node",
+      "config":{
+        "includeFiles":["db.json"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/server.js"
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
