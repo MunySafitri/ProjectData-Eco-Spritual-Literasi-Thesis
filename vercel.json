@@ -9,5 +9,10 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/"
-    }]
+    }],
+    "function":{
+        "/*js":{
+            "maxDuration": 10
+        }
+    }
 }
